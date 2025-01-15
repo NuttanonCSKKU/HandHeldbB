@@ -961,3 +961,4 @@ C:\Users\Nuttanon\source\repos\HandHeldbB\obj\Debug\net9.0-android\android\src\c
 C:\Users\Nuttanon\source\repos\HandHeldbB\obj\Debug\net9.0-android\android\src\crc64ed1888fb4925e3b7\AuthenticationAgentActivity.java
 C:\Users\Nuttanon\source\repos\HandHeldbB\obj\Debug\net9.0-android\android\src\crc64ed1888fb4925e3b7\AuthenticationAgentActivity_CoreWebViewClient.java
 C:\Users\Nuttanon\source\repos\HandHeldbB\obj\Debug\net9.0-android\android\src\microsoft\identity\client\AuthenticationActivity.java
+C:\Users\Nuttanon\source\repos\HandHeldbB\obj\Debug\net9.0-android\HandHeldbB.sourcelink.json

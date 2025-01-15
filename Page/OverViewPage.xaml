@@ -44,7 +44,7 @@
             <VerticalStackLayout Padding="20" Spacing="15">
 
                 <!-- User Information -->
-                <Frame BackgroundColor="#ecf0f1" CornerRadius="10" Padding="10" HasShadow="True">
+                <!--<Frame BackgroundColor="#ecf0f1" CornerRadius="10" Padding="10" HasShadow="True">
                     <VerticalStackLayout Spacing="5" HorizontalOptions="FillAndExpand">
                         <Label Text="Welcome!"
                                FontSize="20"
@@ -61,7 +61,7 @@
                                 HorizontalOptions="Center"
                                 Command="{Binding LogoutCommand}" />
                     </VerticalStackLayout>
-                </Frame>
+                </Frame>-->
 
                 <!-- Title -->
                 <Label Text="Main Menu"

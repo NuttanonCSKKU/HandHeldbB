@@ -1,6 +1,7 @@
 ﻿using HandHeldbB.Page;
 using Microsoft.Extensions.Logging;
 
+
 namespace HandHeldbB
 {
     public static class MauiProgram
@@ -20,6 +21,9 @@ namespace HandHeldbB
 
             Routing.RegisterRoute("OverViewPage", typeof(OverViewPage));
             Routing.RegisterRoute("WhseReceiptListPage", typeof(WhseReceiptListPage));
+            Routing.RegisterRoute("WhseReceiptPage", typeof(WhseReceiptPage));
+           
+  
 
 #if DEBUG
             builder.Logging.AddDebug();

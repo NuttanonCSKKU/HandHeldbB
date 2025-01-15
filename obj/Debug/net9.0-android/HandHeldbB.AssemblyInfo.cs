@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HandHeldbB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+6bc43e3ca0ce00aad753fe067f6e8c85af5566c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("HandHeldbB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HandHeldbB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

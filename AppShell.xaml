@@ -20,5 +20,11 @@
      ContentTemplate="{DataTemplate local:WhseReceiptListPage}"
       />
 
+    <ShellContent
+     Title="WhseReceiptPage"
+     Route="WhseReceiptPage"
+     ContentTemplate="{DataTemplate local:WhseReceiptPage}"
+      />
+
 
 </Shell>

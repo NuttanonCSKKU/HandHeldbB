@@ -11,48 +11,52 @@
       "RelativeMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|solutionrelative:page\\whsereceiptlistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|c:\\users\\nuttanon\\source\\repos\\handheldbb\\page\\whsereceiptlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|solutionrelative:page\\whsereceiptlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|c:\\users\\nuttanon\\source\\repos\\handheldbb\\page\\whsereceiptpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|solutionrelative:page\\whsereceiptpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|c:\\users\\nuttanon\\source\\repos\\handheldbb\\page\\overviewpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|solutionrelative:page\\overviewpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|c:\\users\\nuttanon\\source\\repos\\handheldbb\\model\\documentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|solutionrelative:model\\documentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|c:\\users\\nuttanon\\source\\repos\\handheldbb\\pagemodel\\overviewpagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|solutionrelative:pagemodel\\overviewpagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|c:\\users\\nuttanon\\source\\repos\\handheldbb\\service\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|solutionrelative:service\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|c:\\users\\nuttanon\\source\\repos\\handheldbb\\page\\whsereceiptlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|solutionrelative:page\\whsereceiptlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|c:\\users\\nuttanon\\source\\repos\\handheldbb\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|c:\\users\\nuttanon\\source\\repos\\handheldbb\\model\\documentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|solutionrelative:model\\documentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|c:\\users\\nuttanon\\source\\repos\\handheldbb\\page\\overviewpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|solutionrelative:page\\overviewpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|c:\\users\\nuttanon\\source\\repos\\handheldbb\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|c:\\users\\nuttanon\\source\\repos\\handheldbb\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|c:\\users\\nuttanon\\source\\repos\\handheldbb\\model\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|solutionrelative:model\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|c:\\users\\nuttanon\\source\\repos\\handheldbb\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|c:\\users\\nuttanon\\source\\repos\\handheldbb\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|c:\\users\\nuttanon\\source\\repos\\handheldbb\\service\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|solutionrelative:service\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|c:\\users\\nuttanon\\source\\repos\\handheldbb\\page\\overviewpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|solutionrelative:page\\overviewpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|c:\\users\\nuttanon\\source\\repos\\handheldbb\\model\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|solutionrelative:model\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AD1AADE-FBD5-4D11-B040-663219FFDAE6}|HandHeldbB.csproj|c:\\users\\nuttanon\\source\\repos\\handheldbb\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -66,8 +70,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DocumentModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\Model\\DocumentModel.cs",
+              "RelativeDocumentMoniker": "Model\\DocumentModel.cs",
+              "ToolTip": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\Model\\DocumentModel.cs",
+              "RelativeToolTip": "Model\\DocumentModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T12:54:40.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-14T12:41:11.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T12:43:04.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T12:41:10.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OverViewPageModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\PageModel\\OverViewPageModel.cs",
+              "RelativeDocumentMoniker": "PageModel\\OverViewPageModel.cs",
+              "ToolTip": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\PageModel\\OverViewPageModel.cs",
+              "RelativeToolTip": "PageModel\\OverViewPageModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T12:39:32.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OverViewPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\Page\\OverViewPage.xaml",
+              "RelativeDocumentMoniker": "Page\\OverViewPage.xaml",
+              "ToolTip": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\Page\\OverViewPage.xaml",
+              "RelativeToolTip": "Page\\OverViewPage.xaml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAACsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-14T12:29:10.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WhseReceiptPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\Page\\WhseReceiptPage.xaml",
+              "RelativeDocumentMoniker": "Page\\WhseReceiptPage.xaml",
+              "ToolTip": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\Page\\WhseReceiptPage.xaml",
+              "RelativeToolTip": "Page\\WhseReceiptPage.xaml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-15T04:24:17.909Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -76,7 +171,7 @@
               "RelativeDocumentMoniker": "PageModel\\WhseReceiptListPageModel.cs",
               "ToolTip": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\PageModel\\WhseReceiptListPageModel.cs",
               "RelativeToolTip": "PageModel\\WhseReceiptListPageModel.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAiwD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-14T12:50:52.377Z",
               "EditorCaption": ""
@@ -96,79 +191,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "WhseReceiptListPage.xaml",
               "DocumentMoniker": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\Page\\WhseReceiptListPage.xaml",
               "RelativeDocumentMoniker": "Page\\WhseReceiptListPage.xaml",
               "ToolTip": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\Page\\WhseReceiptListPage.xaml",
               "RelativeToolTip": "Page\\WhseReceiptListPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAIwCgAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-14T12:48:50.945Z"
+              "WhenOpened": "2025-01-14T12:48:50.945Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OverViewPageModel.cs",
-              "DocumentMoniker": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\PageModel\\OverViewPageModel.cs",
-              "RelativeDocumentMoniker": "PageModel\\OverViewPageModel.cs",
-              "ToolTip": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\PageModel\\OverViewPageModel.cs",
-              "RelativeToolTip": "PageModel\\OverViewPageModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T12:39:32.485Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OverViewPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\Page\\OverViewPage.xaml",
-              "RelativeDocumentMoniker": "Page\\OverViewPage.xaml",
-              "ToolTip": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\Page\\OverViewPage.xaml",
-              "RelativeToolTip": "Page\\OverViewPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHwAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-14T12:29:10.714Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DocumentService.cs",
-              "DocumentMoniker": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\Service\\DocumentService.cs",
-              "RelativeDocumentMoniker": "Service\\DocumentService.cs",
-              "ToolTip": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\Service\\DocumentService.cs",
-              "RelativeToolTip": "Service\\DocumentService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABMAAADTBQAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T14:55:52.705Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\MauiProgram.cs",
               "RelativeDocumentMoniker": "MauiProgram.cs",
               "ToolTip": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\MauiProgram.cs",
               "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T12:42:34.055Z"
+              "WhenOpened": "2025-01-14T12:42:34.055Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DocumentModel.cs",
-              "DocumentMoniker": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\Model\\DocumentModel.cs",
-              "RelativeDocumentMoniker": "Model\\DocumentModel.cs",
-              "ToolTip": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\Model\\DocumentModel.cs",
-              "RelativeToolTip": "Model\\DocumentModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T12:54:40.234Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "OverViewPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\Page\\OverViewPage.xaml.cs",
               "RelativeDocumentMoniker": "Page\\OverViewPage.xaml.cs",
@@ -180,19 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T12:43:04.476Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "TokenResponse.cs",
               "DocumentMoniker": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\Model\\TokenResponse.cs",
               "RelativeDocumentMoniker": "Model\\TokenResponse.cs",
@@ -204,31 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\AppShell.xaml",
-              "RelativeDocumentMoniker": "AppShell.xaml",
-              "ToolTip": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\AppShell.xaml",
-              "RelativeToolTip": "AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-14T12:41:11.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\AppShell.xaml.cs",
-              "RelativeDocumentMoniker": "AppShell.xaml.cs",
-              "ToolTip": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\AppShell.xaml.cs",
-              "RelativeToolTip": "AppShell.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T12:41:10.479Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -237,6 +250,40 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-01-14T12:43:03.168Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "974fef5a-1ccb-4f88-9046-80491b325122",
+        "Display": 0,
+        "X": -5,
+        "Y": 34,
+        "Width": 1546,
+        "Height": 787,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DocumentService.cs",
+              "DocumentMoniker": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\Service\\DocumentService.cs",
+              "RelativeDocumentMoniker": "Service\\DocumentService.cs",
+              "ToolTip": "C:\\Users\\Nuttanon\\source\\repos\\HandHeldbB\\Service\\DocumentService.cs",
+              "RelativeToolTip": "Service\\DocumentService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCIAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T14:55:52.705Z",
+              "EditorCaption": ""
             }
           ]
         }

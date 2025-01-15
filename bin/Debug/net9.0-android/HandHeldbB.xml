@@ -10,6 +10,9 @@
         <member name="P:HandHeldbB.PageModel.WhseReceiptListPageModel.Products">
             <inheritdoc cref="F:HandHeldbB.PageModel.WhseReceiptListPageModel.products"/>
         </member>
+        <member name="P:HandHeldbB.PageModel.WhseReceiptListPageModel.ProductSelected">
+            <inheritdoc cref="F:HandHeldbB.PageModel.WhseReceiptListPageModel.productSelected"/>
+        </member>
         <member name="T:HandHeldbB.Resource">
             <summary>
             Android Resource Designer class.
@@ -25,6 +28,9 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Products">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Products" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ProductSelected">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ProductSelected" generated properties.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
@@ -33,6 +39,9 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Products">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Products" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ProductSelected">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ProductSelected" generated properties.</summary>
         </member>
     </members>
 </doc>
