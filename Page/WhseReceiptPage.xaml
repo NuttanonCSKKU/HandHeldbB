@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HandHeldbB.Page.WhseReceiptPage"
+             Title="WhseReceiptPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="Frame" TargetType="Frame">
+                <Setter Property="CornerRadius" Value="0"/>
+                <Setter Property="HasShadow" Value="False"/>
+                <Setter Property="BackgroundColor" Value="White"/>
+                <Setter Property="VerticalOptions" Value="Fill"/>
+            </Style>
+            <Style x:Key="Entry" TargetType="Entry">
+                <Setter Property="TextColor" Value="#505050"/>
+                <Setter Property="PlaceholderColor" Value="#505050"/>
+                <Setter Property="BackgroundColor" Value="White"/>
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="VerticalOptions" Value="Fill"/>
+                <Setter Property="HorizontalOptions" Value="Fill"/>
+                <Setter Property="ClearButtonVisibility" Value="WhileEditing"/>
+            </Style>
+        </ResourceDictionary>
+        </ContentPage.Resources>
+        <ContentPage.Content>
+            <ScrollView>
+                <AbsoluteLayout
+            VerticalOptions="FillAndExpand"
+            HorizontalOptions="FillAndExpand">
+                    <StackLayout
+                Spacing="0"
+                VerticalOptions="FillAndExpand" 
+                HorizontalOptions="FillAndExpand"
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds="0,0,1,1">
+                   
+                        <StackLayout
+                    Spacing="0"
+                    BackgroundColor="white"
+                    VerticalOptions="FillAndExpand" 
+                    HorizontalOptions="FillAndExpand">
+                            <StackLayout>
+                                <Label 
+                            Margin="20,0,20,0" 
+                            BackgroundColor="Transparent"  
+                            Text="{Binding Product.barcode}"/>
+                                <Label 
+                            Text="Item"
+                            Padding="0" 
+                            IsVisible="false"
+                            Margin="25,0,25,0" 
+                            />
+                                <Entry Grid.Row="0"
+                               x:Name="tItemCode"
+                               CursorPosition="1"
+                            Margin="20,0,20,0" 
+                            BackgroundColor="Transparent"                                
+                            Text="{Binding itemCode}"
+                            ReturnCommandParameter="{x:Reference tItemCode}"   
+                            ReturnCommand="{Binding GetItemCommand}">
+                                </Entry>
+                                <Frame
+                            BackgroundColor="white">
+                                    <Button 
+                                Command="{Binding SaveClicked}"
+                                Text="Confirm Receive"
+                                TextColor="White"
+                                BackgroundColor="Green"
+                                FontSize="Medium"
+                                VerticalOptions="Fill" 
+                                HorizontalOptions="Fill"/>
+
+                                </Frame>
+                                <StackLayout HorizontalOptions="CenterAndExpand"  IsVisible="true">
+                                    <Grid RowDefinitions="40" ColumnDefinitions="120" >
+                                        <Label x:Name="Barcode" Text="{Binding Barcode}" Grid.Column="0" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                                        <Label Text="จำนวนรวม" Grid.Column="2" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                                        <Label Text="{Binding SumQuantity}" Grid.Column="3"  VerticalTextAlignment="Center"/>
+                                    </Grid>
+                                </StackLayout>
+                                <ListView ItemsSource="{Binding POLine}" SelectedItem="{Binding ItemSelected}" SelectionMode="Single" >
+                                    <ListView.ItemTemplate>
+                                        <DataTemplate>
+                                            <ViewCell>
+                                                <Grid  RowDefinitions="40" ColumnDefinitions="130">
+
+                                                    <Label Text="{Binding itemNo}"  Grid.Column="0" VerticalTextAlignment="Center" />
+                                                    <Label Text="{Binding barcode}"  Grid.Column="1" VerticalTextAlignment="Center" IsVisible="false"/>
+                                                    <Label Text="{Binding quantity}" Grid.Column="1" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center"/>
+                                                    <Label Text="{Binding scanQty}" Grid.Column="2" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" TextColor="{Binding color}"/>
+                                                    <Label Text="{Binding remainQty}" Grid.Column="3" VerticalTextAlignment="Center"  HorizontalTextAlignment="Center" TextColor="Blue"/>
+                                                </Grid>
+                                            </ViewCell>
+                                        </DataTemplate>
+                                    </ListView.ItemTemplate>
+                                </ListView>
+
+                            </StackLayout>
+
+                        </StackLayout>
+                    </StackLayout>
+            
+                </AbsoluteLayout>
+            </ScrollView>
+        </ContentPage.Content>
+</ContentPage>

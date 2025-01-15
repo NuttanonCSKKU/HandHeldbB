@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HandHeldbB.Page.OverViewPage"
+             Title="OverViewPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <!-- Style สำหรับ Frame -->
+            <Style x:Key="MenuFrameStyle" TargetType="Frame">
+                <Setter Property="BackgroundColor" Value="White" />
+                <Setter Property="CornerRadius" Value="15" />
+                <Setter Property="HasShadow" Value="True" />
+                <Setter Property="Padding" Value="10" />
+                <Setter Property="VerticalOptions" Value="FillAndExpand" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+            </Style>
+
+            <!-- Style สำหรับ Label Title -->
+            <Style x:Key="MenuTitleLabelStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="16" />
+                <Setter Property="FontFamily" Value="RobotoBold" />
+                <Setter Property="TextColor" Value="#2c3e50" />
+            </Style>
+
+            <!-- Style สำหรับ Label Subtitle -->
+            <Style x:Key="MenuSubtitleLabelStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="12" />
+                <Setter Property="TextColor" Value="#7f8c8d" />
+            </Style>
+
+            <!-- Style สำหรับ Image -->
+            <Style x:Key="MenuImageStyle" TargetType="Image">
+                <Setter Property="WidthRequest" Value="50" />
+                <Setter Property="HeightRequest" Value="50" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="Center" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <VerticalStackLayout Padding="20" Spacing="15">
+
+                <!-- User Information -->
+                <Frame BackgroundColor="#ecf0f1" CornerRadius="10" Padding="10" HasShadow="True">
+                    <VerticalStackLayout Spacing="5" HorizontalOptions="FillAndExpand">
+                        <Label Text="Welcome!"
+                               FontSize="20"
+                               TextColor="#34495e"
+                               FontFamily="RobotoBold"
+                               HorizontalOptions="Center" />
+                        <Button Text="Logout"
+                                BackgroundColor="#e74c3c"
+                                TextColor="White"
+                                FontAttributes="Bold"
+                                FontSize="16"
+                                CornerRadius="10"
+                                Padding="10"
+                                HorizontalOptions="Center"
+                                Command="{Binding LogoutCommand}" />
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Title -->
+                <Label Text="Main Menu"
+                       FontSize="28"
+                       TextColor="#2c3e50"
+                       FontFamily="RobotoBold"
+                       HorizontalOptions="Center">
+                    <Label.Shadow>
+                        <Shadow Brush="#bdc3c7" Offset="2,2" Opacity="0.6" Radius="5" />
+                    </Label.Shadow>
+                </Label>
+
+                <!-- Grid for Menu Options -->
+                <Grid RowSpacing="15" ColumnSpacing="15">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Menu 1: Receive -->
+                    <Frame Grid.Row="0" Grid.Column="0" Style="{StaticResource MenuFrameStyle}">
+                        <StackLayout Spacing="8" HorizontalOptions="Center" VerticalOptions="Center">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding BtnWhseReceiptClicked}"/>
+                            </StackLayout.GestureRecognizers>
+
+                            <Image Source="{Binding IconReceive}" Style="{StaticResource MenuImageStyle}" />
+                            <Label Text="รับสินค้า" Style="{StaticResource MenuTitleLabelStyle}" />
+                            <Label Text="(Receive)" Style="{StaticResource MenuSubtitleLabelStyle}" />
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Menu 2: PUT -->
+                    <Frame Grid.Row="0" Grid.Column="1" Style="{StaticResource MenuFrameStyle}">
+                        <StackLayout Spacing="8" HorizontalOptions="Center" VerticalOptions="Center">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding BtnPutAwayClicked}"/>
+                            </StackLayout.GestureRecognizers>
+                            <Image Source="{Binding IconPut}" Style="{StaticResource MenuImageStyle}" />
+                            <Label Text="วางสินค้า" Style="{StaticResource MenuTitleLabelStyle}" />
+                            <Label Text="(Put)" Style="{StaticResource MenuSubtitleLabelStyle}" />
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Menu 3: PICK -->
+                    <Frame Grid.Row="1" Grid.Column="0" Style="{StaticResource MenuFrameStyle}">
+                        <StackLayout Spacing="8" HorizontalOptions="Center" VerticalOptions="Center">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding BtnPickListClicked}"/>
+                            </StackLayout.GestureRecognizers>
+                            <Image  Source="{Binding IconPick}" Style="{StaticResource MenuImageStyle}" />
+                            <Label Text="หยิบสินค้า" Style="{StaticResource MenuTitleLabelStyle}" />
+                            <Label Text="(Pick)" Style="{StaticResource MenuSubtitleLabelStyle}" />
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Menu 4: Pick -->
+                    <Frame Grid.Row="1" Grid.Column="1" Style="{StaticResource MenuFrameStyle}">
+                        <StackLayout Spacing="8" HorizontalOptions="Center" VerticalOptions="Center">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding BtnWhseShipmentClicked}"/>
+                            </StackLayout.GestureRecognizers>
+                            <Image Source="{Binding IconSell}" Style="{StaticResource MenuImageStyle}" />
+                            <Label Text="ส่งสินค้า" Style="{StaticResource MenuTitleLabelStyle}" />
+                            <Label Text="(SHIP)" Style="{StaticResource MenuSubtitleLabelStyle}" />
+                        </StackLayout>
+                    </Frame>
+
+                 
+                </Grid>
+            </VerticalStackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

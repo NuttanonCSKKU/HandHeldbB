@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HandHeldbB.Page.WhseReceiptListPage"
+             xmlns:pm="clr-namespace:HandHeldbB.PageModel"
+             Title="WhseReceiptListPage">
+    
+    <ContentPage.BindingContext>
+        <pm:WhseReceiptListPageModel/>
+    </ContentPage.BindingContext>
+
+    <StackLayout Padding="10">
+        <!-- Button for fetching documents -->
+        <Button Text="GET Document" Command="{Binding GetDocumentsCommand}" />
+
+        <!-- Header Section -->
+        <Grid ColumnSpacing="10" Padding="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="3*" />
+            </Grid.ColumnDefinitions>
+            <Label Text="DocumentNo" FontAttributes="Bold" Grid.Column="0" />
+            <Label Text="DocumentType" FontAttributes="Bold" Grid.Column="1" />
+            <Label Text="SourceDocument" FontAttributes="Bold" Grid.Column="2" />
+        </Grid>
+
+
+        <!-- ListView for displaying products -->
+        <ListView ItemsSource="{Binding Products}" SelectedItem="{Binding ProductSelected}" SelectionMode="Single">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding DocumentNo}" WidthRequest="100" />
+                            <Label Text="{Binding DocumentType}" WidthRequest="100" />
+                            <Label Text="{Binding SourceDocument}" WidthRequest="100" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

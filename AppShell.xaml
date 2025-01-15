@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="HandHeldbB.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:HandHeldbB.Page"
+    Shell.FlyoutBehavior="Disabled"
+    Title="HandHeldbB">
+
+    <ShellContent
+      Title="OverViewPage"
+      Route="OverViewPage"
+      ContentTemplate="{DataTemplate local:OverViewPage}"
+       />
+    
+    
+    <ShellContent
+     Title="WhseReceiptListPage"
+     Route="WhseReceiptListPage"
+     ContentTemplate="{DataTemplate local:WhseReceiptListPage}"
+      />
+
+
+</Shell>
